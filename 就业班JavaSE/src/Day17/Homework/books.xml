@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--练习题-->
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+    <book>
+        <name>《架构师成长之路》</name>
+        <press>黑马程序员</press>
+        <publicationDate>2010-6-6</publicationDate>
+        <price>125.00</price>
+    </book>
+
+    <book>
+        <name>《JavaEE企业级开发》</name>
+        <press>黑马研究院</press>
+        <publicationDate>2011-5-5</publicationDate>
+        <price>115.80</price>
+    </book>
+
+    <book>
+        <name>《Oracle指南》</name>
+        <press>清华计算机</press>
+        <publicationDate>2012-7-7</publicationDate>
+        <price>89.00</price>
+    </book>
+</books>

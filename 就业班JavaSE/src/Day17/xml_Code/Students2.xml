@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--注释一下-->
+<Students
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="123456"
+        xsi:schemaLocation="123456 Students.xsd"
+>
+    <student id="01">
+        <name>啦啦啦</name>
+        <age>0</age>
+        <message></message>
+        <info>学生&lt;&gt;&amp;&apos;&quot;</info>
+    </student>
+
+    <student id="02">
+        <name>滴滴滴</name>
+        <age>1</age>
+        <message>
+            <![CDATA[啦啦啦噜噜噜<<<>>>>>><<<]]>
+        </message>
+        <info>
+            <![CDATA[
+                哈哈哈哈哈哈
+            ]]>
+        </info>
+    </student>
+
+</Students>

@@ -1,0 +1,6 @@
+<!ELEMENT books (book+)>
+        <!ELEMENT book (name, press, publicationDate, price)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT press (#PCDATA)>
+        <!ELEMENT publicationDate (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
