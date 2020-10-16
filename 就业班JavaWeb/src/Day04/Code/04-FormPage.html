@@ -9,9 +9,9 @@
         }
 
         .register {
-            height: 500px;
+            /*height: 500px;*/
             width: 400px;
-            alignment: center;
+            text-align: center;
             margin: auto;
             background-color: white;
         }
@@ -36,32 +36,34 @@
         <br>
         <div class="input">
             <label for="name">姓名：</label>
-            <input type="text" id="name" name="username" placeholder="输入姓名">
+            <input type="text" id="name" name="username" value="" placeholder="输入姓名" required>
             <br>
             <label for="password">密码：</label>
-            <input type="text" id="password" name="password" placeholder="输入密码">
+            <input type="text" id="password" name="password" value="" placeholder="输入密码" required>
             <br>
             <label for="email">邮箱：</label>
-            <input type="text" id="email" name="email" placeholder="输入邮箱">
+            <input type="text" id="email" name="email" value="" placeholder="输入邮箱" required>
             <br>
             <label for="phone">手机：</label>
-            <input type="text" id="phone" name="phone" placeholder="输入手机">
+            <input type="text" id="phone" name="phone" value="" placeholder="输入手机" required>
             <br>
             <br>
             <div style="border-bottom: 1px solid black"></div>
             <br>
             <label for="gender">性别</label>
-            <input type="radio" id="gender" name="gender">男
-            <input type="radio" name="gender">女
+            <input type="radio" id="gender" name="gender" value="male">男
+            <input type="radio" name="gender" value="female">女
             <br>
             <label for="hobbies">爱好</label>
-            <input type="checkbox" id="hobbies" name="hobby1">娱乐
-            <input type="checkbox" name="hobby2">军事
-            <input type="checkbox" name="hobby3">科技
-            <input type="checkbox" name="hobby4">体育
+            <input type="checkbox" id="hobbies" name="hobby1" value="entertainment">娱乐
+            <input type="checkbox" name="hobby2" value="military">军事
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="hobby3" value="technology">科技
+            <input type="checkbox" name="hobby4" value="sports">体育
             <br>
             <label for="birthday">生日</label>
-            <input type="date" id="birthday" name=birthday>
+            <input type="date" id="birthday" name=birthday value="">
             <br>
             <label for="city">城市</label>
             <select name="city" id="city">
