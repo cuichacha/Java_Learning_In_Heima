@@ -1,0 +1,28 @@
+.header {
+    background-color: black;
+    text-align: right;
+}
+
+.header a {
+    line-height: 25px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigator img {
+    height: 41px;
+    vertical-align: middle;
+}
+
+span {
+    line-height: 41px;
+}
+
+a:hover {
+    color: red;
+}
+
