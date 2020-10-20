@@ -1,6 +1,0 @@
-<!ELEMENT Students (student+)>
-<!ELEMENT student (name, age, info)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT age (#PCDATA)>
-<!ELEMENT info (#PCDATA)>
-<!ATTLIST student id CDATA #REQUIRED>
