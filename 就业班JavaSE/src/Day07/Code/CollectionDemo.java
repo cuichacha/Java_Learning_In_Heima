@@ -26,7 +26,5 @@ public class CollectionDemo {
         System.out.println(collection.size());
         collection.clear();
         System.out.println(collection);
-
-        System.out.println("lalalalala");
     }
 }
